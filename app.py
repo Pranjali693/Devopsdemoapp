@@ -31,7 +31,7 @@ def result():
         else:
             result = modulo(var_1, var_2)
             
-    elif(operation == 'Division'):
+    elif(operation == 'Power'):
         if(var_2==0):
             result = 1
         else:
