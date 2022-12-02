@@ -9,12 +9,12 @@ def test_subtract():
 	assert subtract(2,3) == -1
 	assert subtract(3,2) == 1
 	assert subtract(-2,3) == -5
-	assert add(-2,-3) == 1
+	assert subtract(-2,-3) == 1
 
 def test_multiply():
 	assert multiply(2,3) == 6
 	assert multiply(-2,-3) == 6
-	assert multiply(2,-3) == 6
+	assert multiply(2,-3) == -6
 
 def test_divide():
 	assert divide(10,5) == 2
@@ -25,4 +25,4 @@ def test_power():
 	assert power(2,2) == 4
 	assert power(2,-2) == 0.25
 	assert power(-2,-2) == 0.25
-	assert power(-2,3) == 0.25
+	assert power(-2,3) == -8
