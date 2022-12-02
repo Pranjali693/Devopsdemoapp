@@ -24,6 +24,12 @@ def result():
             result = 0
         else:
              result = divide(var_1, var_2)
+                
+    elif(operation == 'Modulo'):
+        if(var_1==0 and var_2==0):
+            result = 0
+        else:
+            result = modulo(var_1, var_2)
     else:
         result = 0
     entry = result
