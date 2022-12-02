@@ -21,11 +21,6 @@ def test_divide():
 	assert divide(10,-5) == 2
 	assert divide(-10,-5) == 2
 
-	
-def test_modulo():
-	assert modulo() == 
-	assert 
-
 def test_power():
 	assert power(2,2) == 4
 	assert power(2,-2) == 0.25
