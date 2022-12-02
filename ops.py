@@ -12,3 +12,9 @@ def divide(x,y):
 
 def modulo(x,y):
 	return x%y
+
+def GCD(x,y):
+	if(y==0):
+		return x
+	else:
+		return GCD(y, x%y)
