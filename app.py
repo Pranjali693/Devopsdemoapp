@@ -30,6 +30,12 @@ def result():
             result = 0
         else:
             result = modulo(var_1, var_2)
+            
+    elif(operation == 'Division'):
+        if(var_2==0):
+            result = 1
+        else:
+             result = power(var_1, var_2)
     else:
         result = 0
     entry = result
